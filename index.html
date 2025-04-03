@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>realco.com</realco>
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav" class="container-sm py-4 d-flex justify-content-between ">
+            <a href="/">
+                <img src="images/logo.svg" alt="Logo" />
+            </a>
+            <div id="header-links" class="d-flex gap-5">
+                <a href="#" class="text-decoration-none text-dark">Home</a>
+                <a href="#" class="text-decoration-none text-dark">Properties</a>
+                <a href="#" class="text-decoration-none text-dark">About</a>
+                <a href="#" class="text-decoration-none text-dark">Contact</a>
+            </div>
+            <div id="header-links" class="d-flex gap-2">
+                <button class="border-0 bg-white py-1 px-4">
+                    <img src="images/search.svg" alt="Search" />
+                    Search
+                </button>
+                <button class="bg-white border border-body-tertiary rounded py-2 px-4">
+                    <img src="images/cart.svg" alt="Cart" />
+                    Cart
+                </button>
+            </div>
+            <div id="i-web">
+                <img src="images/i-webp.svg" alt="">
+            </div>
+        </nav>
+        <div class="d-flex" style="background-color: #f5f5f2;">
+            <div id="header-bg" class="container d-flex">
+                <div class="d-flex flex-column justify-content-center align-content-between gap-3"
+                    style="width: 500px;">
+                    <h1 id="header-title" style="font-weight: 400; font-size: 56px;">Find house for your family in
+                        minutes</h1>
+
+                    <p id="header-text" style="font-size: 20px;">Aenean sodales mauris quis tellus facilisis, vel mattis
+                        magna. Interdum
+                        curabitur eget aliquam elit in mauris purus.</p>
+                    <div class="d-flex gap-3">
+                        <input id="input" class="border border-body-tertiary py-2 px-3 rounded-2" type="search"
+                            placeholder="Search">
+                        <button id="header-btn" class="border-0 py-2 px-3 rounded-2 text-white"
+                            style="background-color: #cf6f49;">Find
+                            property</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <div class="d-flex flex-column align-items-center">
+            <div style="width: 768px;">
+                <h1 style="font-weight: 700; font-size: 48px; text-align: center;">How it works</h1>
+                <p style="font-weight: 400; font-size: 18px; color: #65665C;text-align: center;">Nunc laoreet consequat
+                    nunc
+                    at consequat. Praesent aliquam mi id efficitur pellentesque. Maecenas varius felis felis.</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between my-5">
+
+            <div class="border border-body-tertiary rounded-3" style="width: 405px; height: 291px; box-shadow: 0px 2px 4px 0px #00000014;
+">
+                <div class="d-flex flex-column align-items-center gap-3">
+                    <img class="d-flex align-items-center mt-5" src="images/frame2.svg" alt="logo">
+                    <h3 style="font-weight: 700; font-size: 24px;">Find property</h3>
+                    <p style="font-weight: 400; font-size: 16px; text-align: center; color: #65665C;">Odales mauris quis
+                        tellus
+                        facilisis, vel mattis magna interdum. Curabitur eget aliquam elit. In mauris purus, auctor a
+                        eleifend non.</p>
+                </div>
+            </div>
+            <div class="border border-body-tertiary rounded-3" style="width: 405px; height: 291px; box-shadow: 0px 2px 4px 0px #00000014;
+">
+                <div class="d-flex flex-column align-items-center gap-3">
+                    <img class="d-flex align-items-center mt-5" src="images/frame3.svg" alt="logo">
+                    <h3 style="font-weight: 700; font-size: 24px;">Make a dea</h3>
+                    <p style="font-weight: 400; font-size: 16px; text-align: center; color: #65665C;">Pellentesque
+                        suscipit mauris. Nam dictum, erat a volutpat varius, urna nisi sollicitudin orci, sagittis
+                        facilisis odio tortor ac mi.</p>
+                </div>
+            </div>
+            <div class="border border-body-tertiary rounded-3" style="width: 405px; height: 291px; box-shadow: 0px 2px 4px 0px #00000014;
+">
+                <div class="d-flex flex-column align-items-center gap-3">
+                    <img class="d-flex align-items-center mt-5" src="images/Frame (1).svg" alt="logo">
+                    <h3 style="font-weight: 700; font-size: 24px;">Get your keys</h3>
+                    <p style="font-weight: 400; font-size: 16px; text-align: center; color: #65665C;">Nulla vel bibendum
+                        purus. Etiam tempus quam vel pulvinar rutrum. Duis semper, metus vitae fermentum consequat.</p>
+                </div>
+            </div>
+        </div>
+        <div id="main-page-2" class="d-flex" style="margin-top: 200px;">
+            <div class="d-flex flex-column justify-content-center align-content-between gap-3">
+                <h1 style="font-weight: 700; font-size: 48px;">The best houses for <br> family
+                    comfort</h1>
+                <p style="font-size: 18px; font-weight: 400px; line-height: 27px;">Ectus ipsum faucibus justo, et semper
+                    quam nisl in nibh. Proin <br> sollicitudin, lorem non posuere
+                    blandit.</p>
+                <div id="main-buttom" class="d-flex  gap-4">
+                    <button class="border rounded-2" style="width: 192px; height: 50px;">Explore properties</button>
+                    <a href="#" class="text-decoration-none"
+                        style="display: flex; color: #2A2C1F; justify-content: center; align-items: center;">
+                        Contact agent <span>&rarr;</span>
+                    </a>
+                </div>
+            </div>
+            <div class="ms-auto">
+                <img src="images/IMAGE.png" alt="foto">
+            </div>
+        </div>
+
+        <div id="main-page-2" class="d-flex justify-content-between" style="margin-top: 200px; margin-bottom: 128px;">
+            <div class="">
+                <img src="images/IMAGE (1).png" alt="foto">
+            </div>
+            <div class="d-flex flex-column justify-content-center align-content-between gap-3">
+                <h1 style="font-weight: 700; font-size: 48px;">Fast forward process family</h1>
+                <p style="font-size: 18px; font-weight: 400px; line-height: 27px;">Ectus ipsum faucibus justo, et
+                    semper
+                    quam nisl in nibh. Proin <br> sollicitudin, lorem non posuere
+                    blandit.</p>
+
+                <div class="d-flex flex-column  gap-5">
+                    <div class="d-flex mt-3 gap-4">
+                        <div style="width: 288px; height: 180px; top: 8px;">
+                            <img src="images/mainlogo.svg" alt="logo">
+                            <h4 style="font-weight: 700; font-size: 20px; margin-top: 20px;">Affordable prices</h4>
+                            <p style="font-weight: 400; font-size: 16px; line-height: 24px; color: #65665C;">Lorem ipsum
+                                dolor sit amet,<br> consectetur adipiscing elit. <br> Suspendisse varius enim in
+                                eros</p>
+                        </div>
+                        <div style="width: 288px; height: 180px; top: 8px;">
+                            <img src="images/second-main-logo.svg" alt="logo">
+                            <h4 style="font-weight: 700; font-size: 20px; margin-top: 20px;">Less paper work</h4>
+                            <p style="font-weight: 400; font-size: 16px; line-height: 24px; color: #65665C;">Curabitur
+                                porta luctus semper donec eget lobortis leo ac finibus nisi.</p>
+                        </div>
+                    </div>
+
+                    <!--bottom qismi -->
+                    <div id="main-buttom" class="d-flex gap-4">
+                        <button class="border rounded-2" style="width: 192px; height: 50px;">Explore
+                            properties</button>
+                        <a href="#" class="text-decoration-none"
+                            style="display: flex; color: #2A2C1F; justify-content: center; align-items: center;">
+                            Contact agent <span>&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section style="background-color: #f5f5f2;">
+        <div class="container">
+            <div style="display: flex; justify-content: center;">
+                <h1 style="font-weight: 700; font-size: 48px; padding-top: 178px;">Houses in your favorite area</h1>
+            </div>
+            <div class="row mb-4" style="margin-top: 80px;">
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/sectioncard-1.png" class="card-img-top" alt="Cozy studio">
+                        <div class="card-body d-flex flex-column gap-1 mx-3">
+                            <h5 style="font-weight: 700; font-size: 24px;">Cozy studio in Los Angeles</h5>
+                            <p style="font-size: 700; font-size: 18px;"><strong>$1,200.00 USD</strong></p>
+                            <p><i><img src="images/place.svg" alt=""></i> 2263 Southlea, Los Angeles</p>
+                            <div class="d-flex gap-3">
+                                <p><i><img src="images/bathtub.svg" alt=""></i>2</p>
+                                <p><i><img src="images/bed.svg" alt=""></i>2</p>
+                                <p> <i><img src="images/square_foot.svg" alt=""> </i>840 sqft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/sectioncard-2.png" class="card-img-top" alt="Tiny home">
+                        <div class="card-body d-flex flex-column gap-1 mx-3">
+                            <h5 style="font-weight: 700; font-size: 24px;">Tiny home in San Diego</h5>
+                            <p style="font-size: 700; font-size: 18px;"><strong>$740,000.00 USD</strong></p>
+                            <p><i><img src="images/place.svg" alt=""></i> 2569 El Segundo,
+                                San Diego</p>
+                            <div class="d-flex gap-3">
+                                <p><i><img src="images/bathtub.svg" alt=""></i>1</p>
+                                <p><i><img src="images/bed.svg" alt=""></i>2</p>
+                                <p> <i><img src="images/square_foot.svg" alt=""> </i>400 sqft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/sectioncard-3.png" class="card-img-top" alt="Crown house">
+                        <div class="card-body d-flex flex-column gap-1 mx-3">
+                            <h5 style="font-weight: 700; font-size: 24px;">Crown house in New York</h5>
+                            <p style="font-size: 700; font-size: 18px;"><strong>$980,000.00 USD</strong></p>
+                            <p><i><img src="images/place.svg" alt=""></i> 4489 Smity
+                                Fielda, New York</p>
+                            <div class="d-flex gap-3">
+                                <p><i><img src="images/bathtub.svg" alt=""></i>2</p>
+                                <p><i><img src="images/bed.svg" alt=""></i>4</p>
+                                <p> <i><img src="images/square_foot.svg" alt=""> </i>3200 sqft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 80px;">
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/sectioncard-4.png" class="card-img-top" alt="Cozy studio">
+                        <div class="card-body d-flex flex-column gap-1 mx-3">
+                            <h5 style="font-weight: 700; font-size: 24px;">Family house in Los Angeles</h5>
+                            <p style="font-size: 700; font-size: 18px;"><strong>$ 4,200.00 USD</strong></p>
+                            <p><i><img src="images/place.svg" alt=""></i>2263 Southlea,
+                                Los Angeles</p>
+                            <div class="d-flex gap-3">
+                                <p><i><img src="images/bathtub.svg" alt=""></i>2</p>
+                                <p><i><img src="images/bed.svg" alt=""></i>3</p>
+                                <p> <i><img src="images/square_foot.svg" alt=""> </i>1400 sqft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/sectioncard-5.png" class="card-img-top" alt="Tiny home">
+                        <div class="d-flex flex-column gap-1 card-body mx-3">
+                            <h5 style="font-weight: 700; font-size: 24px;">Studio in Las Vegas</h5>
+                            <p style="font-size: 700; font-size: 18px;"><strong>$ 820,000.00 USD</strong></p>
+                            <p><i><img src="images/place.svg" alt=""></i>2569 Halls
+                                Corner, Las Vegas</p>
+                            <div class="d-flex gap-3">
+                                <p><i><img src="images/bathtub.svg" alt=""></i>2</p>
+                                <p><i><img src="images/bed.svg" alt=""></i>3</p>
+                                <p> <i><img src="images/square_foot.svg" alt=""> </i>2400 sqft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/sectioncard-6.png" class="card-img-top" alt="Crown house">
+                        <div class="card-body d-flex flex-column gap-1 mx-3">
+                            <h5 style="font-weight: 700; font-size: 24px;">San Diego story</h5>
+                            <p style="font-size: 700; font-size: 18px;"><strong>$370,000.00 USD</strong></p>
+                            <p><i><img src="images/place.svg" alt=""></i> 2569 El Segundo, San Diego </p>
+                            <div class="d-flex gap-3">
+                                <p><i><img src="images/bathtub.svg" alt=""></i>1</p>
+                                <p><i><img src="images/bed.svg" alt=""></i>2</p>
+                                <p> <i><img src="images/square_foot.svg" alt=""> </i>650 sqft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center gap-4" style="padding-bottom: 160px;">
+                <button class="border rounded-2" style="width: 192px; height: 50px;">Explore properties</button>
+                <a href="#" class="text-decoration-none"
+                    style="display: flex; color: #2A2C1F; justify-content: center; align-items: center;">
+                    Contact agent <span>&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #f5f5f2;">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <h1 style="font-weight: 700; font-size: 48px;">Locations</h1>
+                <p
+                    style="font-weight: 400; font-size: 18px; line-height: 27px; padding-top: 25px; text-align: center; color: #65665C;">
+                    Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna, aliquet non <br> nisl
+                    sit amet.</p>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center gap-4" style="margin-top: 80px;">
+
+                <div class="bg-white rounded-4 p-5" style="width: 416px;">
+                    <h5 style="font-weight: 700; font-size: 20px; ">San Francisco, CA</h5>
+                    <a href="#" class="text-decoration-none"
+                        style="display: flex; color: #2A2C1F; gap: 10px; padding-top: 6px;">View properties
+                        <span>&rarr;</span></a>
+                </div>
+                <div class="bg-white rounded-4 p-5" style="width: 416px;">
+                    <h5 style="font-weight: 700; font-size: 20px; ">San Francisco, CA</h5>
+                    <a href="#" class="text-decoration-none"
+                        style="display: flex; color: #2A2C1F; gap: 10px; padding-top: 6px;">View properties
+                        <span>&rarr;</span></a>
+                </div>
+                <div class="bg-white rounded-4 p-5" style="width: 416px;">
+                    <h5 style="font-weight: 700; font-size: 20px; ">San Francisco, CA</h5>
+                    <a href="#" class="text-decoration-none"
+                        style="display: flex; color: #2A2C1F; gap: 10px; padding-top: 6px;">View properties
+                        <span>&rarr;</span></a>
+                </div>
+                <div class="bg-white rounded-4 p-5" style="width: 416px;">
+                    <h5 style="font-weight: 700; font-size: 20px; ">San Francisco, CA</h5>
+                    <a href="#" class="text-decoration-none"
+                        style="display: flex; color: #2A2C1F; gap: 10px; padding-top: 6px;">View properties
+                        <span>&rarr;</span></a>
+                </div>
+                <div class="bg-white rounded-4 p-5" style="width: 416px;">
+                    <h5 style="font-weight: 700; font-size: 20px; ">San Francisco, CA</h5>
+                    <a href="#" class="text-decoration-none"
+                        style="display: flex; color: #2A2C1F; gap: 10px; padding-top: 6px;">View properties
+                        <span>&rarr;</span></a>
+                </div>
+                <div class="bg-white rounded-4 p-5" style="width: 416px;">
+                    <h5 style="font-weight: 700; font-size: 20px; ">San Francisco, CA</h5>
+                    <a href="#" class="text-decoration-none"
+                        style="display: flex; color: #2A2C1F; gap: 10px; padding-top: 6px;">View properties
+                        <span>&rarr;</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center gap-4" style="padding-bottom: 350px; padding-top: 80px;">
+            <button class="border rounded-2" style="width: 192px; height: 50px;">Explore properties</button>
+            <a href="#" class="text-decoration-none"
+                style="display: flex; color: #2A2C1F; justify-content: center; align-items: center;">
+                Contact agent <span>&rarr;</span>
+            </a>
+        </div>
+    </section>
+    <section class="container position-relative">
+        <div id="family"
+            class="d-flex flex-column justify-content-center align-items-center rounded-4 gap-3 position-absolute"
+            style="width: 1280px; height: 465px; background-color: #65665C; top: -250px;">
+            <div>
+                <img src="images/family-logo.svg" alt="logo">
+            </div>
+            <h1 style="font-size: 48px; font-weight: 700; color: #fff;">Families are our priority</h1>
+            <p style="font-weight: 400; font-size: 18px; line-height: 27px; color: #E7E8E3; text-align: center;">
+                Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non, placerat vel arcu. In non <br>
+                consectetur lorem. Morbi non varius sapien suscipit mauri.</p>
+            <button class="rounded"
+                style="width: 137px; height: 50px; background-color: #CF6F49; color: #fff; border-color: #CF6F49 ;">Get
+                started</button>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-3" style="padding-top: 340px; padding-bottom: 60px; ">
+            <h1 style="font-weight: 700; font-size: 48px;">What customers say</h1>
+            <p style="font-weight: 400; font-size: 18px; color: #65665C;">Faucibus orci luctus et ultrices posuere
+                cubilia curae.</p>
+        </div>
+        <!--comment-card-->
+        <div id="comment" class="d-flex gap-4" style="margin-bottom: 140px;">
+            <div class="d-flex flex-column px-5 justify-content-center gap-4 rounded-3"
+                style="width: 405px; height: 325px;  box-shadow: 0px 2px 4px 0px #00000014 ; border: 1px solid #E7E8E3">
+                <div>
+                    <img src="images/star-logo.svg" alt="star-logo">
+                </div>
+                <p>"Aliquam erat volutpat. Nulla pretium nec <br> urna et convallis. Ut varius mi lacus, nec <br>
+                    molestie libero
+                    ultricies nec. Aenean <br> lacinia dui elit, ut gravida quam."</p>
+                <div class="d-flex gap-3">
+                    <div>
+                        <img src="images/comment-foto.png" alt="comment-foto">
+                    </div>
+                    <div>
+                        <h6>Michael Webb</h6>
+                        <p>Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column px-5 justify-content-center gap-4 rounded-3"
+                style="width: 405px; height: 325px;  box-shadow: 0px 2px 4px 0px #00000014 ; border: 1px solid #E7E8E3">
+                <div>
+                    <img src="images/star-logo.svg" alt="star-logo">
+                </div>
+                <p>"Class aptent taciti sociosqu ad litora <br> torquent per conubia nostra, per <br> inceptos
+                    himenaeos. Morbi pretium <br> iaculis ultricies. Aenean in leo vitae <br> tortor."</p>
+                <div class="d-flex gap-3">
+                    <div>
+                        <img src="images/comment-foto-2.png" alt="comment-foto">
+                    </div>
+                    <div>
+                        <h6>Amber Keene</h6>
+                        <p>Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column px-5 justify-content-center gap-4 rounded-3"
+                style="width: 405px; height: 325px;  box-shadow: 0px 2px 4px 0px #00000014 ; border: 1px solid #E7E8E3">
+                <div>
+                    <img src="images/star-logo.svg" alt="star-logo">
+                </div>
+                <p>"Condimentum viverra orci. Pellentesque <br> suscipit odio nisl, non ultricies purus <br> mattis
+                    eget. In placerat, lorem a sodales <br> ullamcorper, eros nibh laoreet nisl."</p>
+                <div class="d-flex gap-3">
+                    <div>
+                        <img src="images/comment-foto-3.png" alt="comment-foto">
+                    </div>
+                    <div>
+                        <h6>Sarah Tarleton</h6>
+                        <p>Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #F5F5F2;">
+        <div class="container">
+            <h1 style="padding-top: 178px; font-weight: 700; font-size: 48px; padding-bottom: 15px;">Latest posts</h1>
+            <div class="d-flex justify-content-between">
+                <p style="font-weight: 400; font-size: 18px; color: #65665C;">Vestibulum ante ipsum primis in faucibus
+                    orci luctus et ultrices posuere cubilia curae. <br> Praesent
+                    efficitur nibh massa morbi sagittis ornare dui in ornare.</p>
+                <button
+                    style="width: 108px; height: 50px; box-shadow: 0px 2px 4px 0px #00000014;border: none; background-color: #fff;">View
+                    all</button>
+            </div>
+            <div class="row g-4" style="padding-top: 80px; padding-bottom: 128px;">
+
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm ">
+                        <img src="images/sectioncard-1.png" class="card-img-top" alt="House Image">
+                        <div class="card-body d-flex flex-column gap-2">
+                            <div>
+                                <span class="badge  text-dark" style="background-color: #FAE8E1;">Trends</span>
+                                <span class="text-muted ms-2">May 10, 2022</span>
+                            </div>
+                            <h5 class="mt-2 fw-bold">The 9 best homes in New York</h5>
+                            <p class="card-text text-muted">Integer tincidunt rutrum faucibus. Proin sit amet varius
+                                arcu.</p>
+                            <a href="#" class="text-decoration-none fw-bold">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/sectioncard-2.png" class="card-img-top" alt="House Image">
+                        <div class="card-body d-flex flex-column gap-2">
+                            <div>
+                                <span class="badge  text-dark" style="background-color: #FAE8E1;">DIY</span>
+                                <span class="text-muted ms-2">May 10, 2022</span>
+                            </div>
+                            <h5 class="mt-2 fw-bold">How to easily buy a house with Realco</h5>
+                            <p class="card-text text-muted">Praesent nec felis nisl. Phasellus eget lacus a metus
+                                fringilla fermentum.</p>
+                            <a href="#" class="text-decoration-none fw-bold">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/sectioncard-3.png" class="card-img-top" alt="House Image">
+                        <div class="card-body d-flex flex-column gap-2">
+                            <div>
+                                <span class="badge text-dark" style="background-color: #FAE8E1;">DIY</span>
+                                <span class="text-muted ms-2">May 10, 2022</span>
+                            </div>
+                            <h5 class="mt-2 fw-bold">Renting houses - complete guide</h5>
+                            <p class="card-text text-muted">Nunc in bibendum leo, gravida scelerisque quam nulla
+                                interdum tellus.</p>
+                            <a href="#" class="text-decoration-none fw-bold">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container d-flex py-5">
+            <div class="col-md-2">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="col-md-2">
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-decoration-none text-muted">Pages</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Home</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">About</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Blog</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Agents</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-decoration-none text-muted">CMS Pages</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Property</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Property Single</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Blog Categories</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Blog Single</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Agent Single</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-decoration-none text-muted">Utility Pages</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Style Guide</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Changelog</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Licenses</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">404</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Password</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h6 class="fw-bold">Subscribe</h6>
+                <p class="text-muted">Join our newsletter to stay up to date on features and releases.</p>
+                <form class="d-flex">
+                    <input type="email" class="form-control me-2" placeholder="Enter your email">
+                    <button class="btn btn-warning">Subscribe</button>
+                </form>
+                <p class="text-muted">By subscribing you agree to our <a href="#" class="text-decoration-none">Privacy
+                        Policy</a></p>
+            </div>
+        </div>
+    </footer>
+    <script href="main.js"></script>
+</body>
+
+</html>
